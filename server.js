@@ -2,7 +2,7 @@ const http = require('http');
 const https = require('https');
 const { URL } = require('url');
 
-const targetUrl = 'https://bfe1-2c0f-eb68-60e-9700-34c8-f3c6-8f53-171f.ngrok-free.app/api/tanks';
+const targetUrl = 'https://b018-2c0f-eb68-60e-9700-34c8-f3c6-8f53-171f.ngrok-free.app';
 
 const server = http.createServer((req, res) => {
   const url = new URL(targetUrl);

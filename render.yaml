@@ -6,4 +6,4 @@ services:
     startCommand: npm start
     envVars:
       - key: PORT
-        value: 8080
+        value: 8000

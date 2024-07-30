@@ -26,7 +26,7 @@ const server = http.createServer((req, res) => {
     res.end(`Problem with request: ${e.message}`);
   });
 });
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 8000;
 
 server.listen(PORT, () => {
   console.log(`HTTP proxy server running on port ${PORT}`);
